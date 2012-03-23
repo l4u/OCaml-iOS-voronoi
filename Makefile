@@ -1,9 +1,9 @@
 PLAT = /Developer/Platforms/iPhoneSimulator.platform
-SDK = /Developer/SDKs/iPhoneSimulator4.2.sdk
+SDK = /Developer/SDKs/iPhoneSimulator5.0.sdk
 PLATAPPS = $(PLAT)/Developer/Applications
 OCAMLDIR = /usr/local/ocamlxsim
 OCAMLBINDIR = $(OCAMLDIR)/bin/
-CC = $(PLAT)/Developer/usr/bin/gcc-4.2
+CC = $(PLAT)/Developer/usr/bin/gcc
 CFLAGS = -arch i386 -isysroot $(PLAT)$(SDK) -gdwarf-2 \
 	-D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 \
 	-isystem $(OCAMLDIR)/lib/ocaml -DCAML_NAME_SPACE
