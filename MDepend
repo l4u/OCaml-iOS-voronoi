@@ -1,0 +1,3 @@
+ViewDelegator.o: ViewDelegator.m ViewDelegator.h
+main.o: main.m
+wrap.o: wrap.m ViewDelegator.h wrap.h

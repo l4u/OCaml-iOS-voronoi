@@ -1,0 +1,80 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		1AB4C0E813A81D82006FC1F5 /* Voronoi.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Voronoi.xib; sourceTree = "<group>"; };
+		1AB4C0E913A81F7A006FC1F5 /* ViewDelegator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewDelegator.h; sourceTree = "<group>"; };
+		1AB4C0EA13A81F7A006FC1F5 /* ViewDelegator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewDelegator.m; sourceTree = "<group>"; };
+		1AB4C0EB13A82441006FC1F5 /* wrap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = wrap.h; sourceTree = "<group>"; };
+		1AB4C0EC13A82441006FC1F5 /* wrap.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = wrap.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		1AB4C0DF13A81B48006FC1F5 = {
+			isa = PBXGroup;
+			children = (
+				1AB4C0E813A81D82006FC1F5 /* Voronoi.xib */,
+				1AB4C0EB13A82441006FC1F5 /* wrap.h */,
+				1AB4C0EC13A82441006FC1F5 /* wrap.m */,
+				1AB4C0E913A81F7A006FC1F5 /* ViewDelegator.h */,
+				1AB4C0EA13A81F7A006FC1F5 /* ViewDelegator.m */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		1AB4C0E113A81B48006FC1F5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 1AB4C0E413A81B48006FC1F5 /* Build configuration list for PBXProject "Voronoi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1AB4C0DF13A81B48006FC1F5;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		1AB4C0E613A81B48006FC1F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		1AB4C0E713A81B48006FC1F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1AB4C0E413A81B48006FC1F5 /* Build configuration list for PBXProject "Voronoi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AB4C0E613A81B48006FC1F5 /* Debug */,
+				1AB4C0E713A81B48006FC1F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1AB4C0E113A81B48006FC1F5 /* Project object */;
+}

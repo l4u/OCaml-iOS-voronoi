@@ -1,0 +1,47 @@
+bzpdata.cmo: cocoa.cmi bzpdata.cmi
+bzpdata.cmx: cocoa.cmx bzpdata.cmi
+bzpdraw.cmo: uiBezierPath.cmi cocoa.cmi bzpdraw.cmi
+bzpdraw.cmx: uiBezierPath.cmx cocoa.cmx bzpdraw.cmi
+cocoa.cmo: cocoa.cmi
+cocoa.cmx: cocoa.cmi
+colorfield.cmo: uiKit.cmi uiBezierPath.cmi cocoa.cmi bzpdata.cmi \
+    colorfield.cmi
+colorfield.cmx: uiKit.cmx uiBezierPath.cmx cocoa.cmx bzpdata.cmx \
+    colorfield.cmi
+uiActionSheet.cmo: wrapper.cmi uiView.cmi uiActionSheet.cmi
+uiActionSheet.cmx: wrapper.cmx uiView.cmx uiActionSheet.cmi
+uiApplication.cmo: wrapper.cmi uiApplication.cmi
+uiApplication.cmx: wrapper.cmx uiApplication.cmi
+uiBezierPath.cmo: wrapper.cmi cocoa.cmi uiBezierPath.cmi
+uiBezierPath.cmx: wrapper.cmx cocoa.cmx uiBezierPath.cmi
+uiFont.cmo: wrapper.cmi uiFont.cmi
+uiFont.cmx: wrapper.cmx uiFont.cmi
+uiKit.cmo: uiFont.cmi cocoa.cmi uiKit.cmi
+uiKit.cmx: uiFont.cmx cocoa.cmx uiKit.cmi
+uiView.cmo: wrapper.cmi cocoa.cmi uiView.cmi
+uiView.cmx: wrapper.cmx cocoa.cmx uiView.cmi
+vorocells.cmo: cocoa.cmi vorocells.cmi
+vorocells.cmx: cocoa.cmx vorocells.cmi
+voronoictlr.cmo: wrappee.cmi vorocells.cmi uiView.cmi uiKit.cmi \
+    uiBezierPath.cmi uiApplication.cmi uiActionSheet.cmi colorfield.cmi \
+    cocoa.cmi bzpdraw.cmi bzpdata.cmi
+voronoictlr.cmx: wrappee.cmx vorocells.cmx uiView.cmx uiKit.cmx \
+    uiBezierPath.cmx uiApplication.cmx uiActionSheet.cmx colorfield.cmx \
+    cocoa.cmx bzpdraw.cmx bzpdata.cmx
+wrappee.cmo: wrappee.cmi
+wrappee.cmx: wrappee.cmi
+wrapper.cmo: wrapper.cmi
+wrapper.cmx: wrapper.cmi
+bzpdata.cmi: cocoa.cmi
+bzpdraw.cmi: uiBezierPath.cmi cocoa.cmi
+cocoa.cmi:
+colorfield.cmi: uiKit.cmi cocoa.cmi
+uiActionSheet.cmi: wrapper.cmi uiView.cmi
+uiApplication.cmi: wrapper.cmi
+uiBezierPath.cmi: wrapper.cmi cocoa.cmi
+uiFont.cmi: wrapper.cmi
+uiKit.cmi: uiFont.cmi cocoa.cmi
+uiView.cmi: wrapper.cmi cocoa.cmi
+vorocells.cmi: cocoa.cmi
+wrappee.cmi:
+wrapper.cmi:
